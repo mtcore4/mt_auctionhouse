@@ -1,0 +1,12 @@
+name: mtauctionhouse
+main: ${mainClass}
+version: ${version}
+api-version: ${apiVersion}
+description: ${description}
+authors:
+  - MTCore
+commands:
+  auctionhouse:
+    description: Browse, list, and manage the Custom Auction House
+    usage: /auctionhouse <open|sell|collect|status|help>
+    aliases: [ah, auction]
